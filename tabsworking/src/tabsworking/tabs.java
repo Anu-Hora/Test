@@ -28,6 +28,7 @@ public class tabs {
 	@Test
 	public void testcase()
 	{
+		int i =10;
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL+"t");
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL+"t");
 		driver.findElement(By.cssSelector("body")).sendKeys(Keys.CONTROL+"t");
