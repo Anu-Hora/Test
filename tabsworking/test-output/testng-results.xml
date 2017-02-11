@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20896" started-at="2016-10-04T03:36:05Z" finished-at="2016-10-04T03:36:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20896" started-at="2016-10-04T03:36:05Z" finished-at="2016-10-04T03:36:26Z">
+      <class name="tabsworking.tabs">
+        <test-method status="PASS" signature="beforemytest()[pri:0, instance:tabsworking.tabs@6d8a00e3]" name="beforemytest" is-config="true" duration-ms="8226" started-at="2016-10-04T09:06:05Z" finished-at="2016-10-04T09:06:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemytest -->
+        <test-method status="PASS" signature="testcase()[pri:0, instance:tabsworking.tabs@6d8a00e3]" name="testcase" duration-ms="12641" started-at="2016-10-04T09:06:13Z" finished-at="2016-10-04T09:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase -->
+        <test-method status="PASS" signature="aftermytest()[pri:0, instance:tabsworking.tabs@6d8a00e3]" name="aftermytest" is-config="true" duration-ms="0" started-at="2016-10-04T09:06:26Z" finished-at="2016-10-04T09:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermytest -->
+      </class> <!-- tabsworking.tabs -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
