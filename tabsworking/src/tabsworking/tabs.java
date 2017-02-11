@@ -15,12 +15,10 @@ public class tabs {
 	@BeforeMethod
 	public void beforemytest()
 	{
-		
-		System.setProperty("webdriver.chrome.driver anub", "H:\\ANU\\selenium\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "H:\\ANU\\selenium\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.shop.theTestingWorld.com");
-		System.setProperty("webdriver.chrome.driver ankith", "H:\\ANU\\selenium\\chromedriver.exe");
 	}
 	@AfterMethod
 	public void aftermytest()
